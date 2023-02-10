@@ -1,0 +1,38 @@
+.NotFoundDiv {
+  background-color: #000000;
+  color: #ffffff;
+  font-family: roboto;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.NotFoundDiv p {
+  font-size: 30px;
+  font-weight: 550;
+}
+.NotFoundDiv span {
+  color: #cbd5e1;
+}
+.NotFoundDiv button {
+  background-color: #4f46e5;
+  padding: 6px 20px;
+  border: none;
+  color: #ffffff;
+  font-weight: 600;
+  border-radius: 5px;
+}
+
+.NotFoundDiv button:hover {
+  background-color: #6366f1;
+}
+
+.notFoundContentDiv {
+  height: 200px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+}

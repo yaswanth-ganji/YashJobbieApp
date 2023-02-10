@@ -1,0 +1,211 @@
+.homeDiv {
+  width: 100%;
+  background-image: url("https://assets.ccbp.in/frontend/react-js/home-lg-bg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.Main {
+  background-color: #000000;
+  width: 100vw;
+}
+
+.homeContent {
+  padding: 70px;
+  width: 50%;
+  font-family: roboto;
+  color: #ffffff;
+}
+.homeContent .p1 {
+  font-weight: bold;
+  font-size: 59px;
+}
+.homeContent .p2 {
+  font-size: larger;
+  width: 500px;
+}
+.homeContent button {
+  background-color: #4f46e5;
+  padding: 15px 25px;
+  border: none;
+  color: #ffffff;
+  font-weight: 600;
+  border-radius: 5px;
+  margin-top: 15px;
+}
+button:hover {
+  background-color: #6366f1;
+}
+
+.Covid19 {
+  color: #ffffff;
+  padding: 20px;
+  padding-left: 40px;
+  /* background: #007cb6; */
+  background: #7aa5ea;
+  font-family: roboto;
+  display: flex;
+  justify-content: space-between;
+}
+.Covid19 h1 {
+  font-weight: bolder;
+  padding-bottom: 15px;
+}
+.Covid19 a {
+  text-decoration: underline;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: large;
+}
+
+.iconSvg {
+  font-size: large;
+  cursor: pointer;
+}
+.iconDiv {
+  width: 5%;
+}
+.cookies {
+  width: 100vw;
+  height: 100px;
+  background: rgba(254, 254, 254, 0.4);
+  color: #ffffff;
+  position: fixed;
+  bottom: 0vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.cookies button {
+  background-color: #ffffff;
+  color: #000000;
+  border: 0.5px solid #000000;
+  padding: 10px;
+}
+.cookies button:hover {
+  border: 2px solid #000000;
+}
+.usagePer {
+  background-color: #202020;
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.usagePer h1 {
+  font-size: 80px;
+  font-weight: bold;
+}
+
+.usagePer .p1 {
+  font-weight: bold;
+  font-size: 17px;
+  padding-bottom: 40px;
+  border-bottom: 4px solid #ffffff;
+}
+.usagePer .p2 {
+  font-weight: bold;
+  font-size: 26px;
+  max-width: 1000px;
+}
+
+.Footer {
+  background-color: #cbd5e1;
+
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: roboto;
+}
+.Footer span {
+  color: #000000;
+}
+.Footer p {
+  color: #000000;
+  font-size: 40px;
+}
+
+.footerLogoDiv {
+  margin: 20px;
+}
+.footerLogoDiv img {
+  margin: 10px;
+}
+
+.footerHeader {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 270px;
+}
+
+.footerHeader p {
+  margin-left: 20px;
+}
+
+.findSolutionsDiv {
+  /* background-color: #f1f5f9; */
+  background-color: #64748b;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  font-family: roboto;
+  padding-top: 50px;
+  padding-bottom: 70px;
+}
+.findSol1,
+.findSol2,
+.findSol3 {
+  width: 27%;
+  margin: 30px;
+  color: #cbd5e1;
+}
+.findSolBtn {
+  padding: 12px;
+  font-size: 17px;
+  font-weight: bold;
+  padding-right: 25;
+  padding-left: 25;
+  color: #000000;
+  background-color: #ffffff;
+  border: none;
+  width: 180px;
+}
+.findSolBtn:hover {
+  background-color: #f8fafc;
+}
+.findSolutionsDiv h2,
+.FindSolutionMainDiv h2 {
+  font-size: x-large;
+  font-weight: bold;
+  color: #ffffff;
+}
+.findSolutionsDiv h3 {
+  font-size: large;
+  font-weight: bold;
+  border-top: 4px solid #ffffff;
+  padding-top: 20px;
+  color: #ffffff;
+}
+.FindSolutionMainDiv {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #64748b;
+  font-family: roboto;
+  padding-bottom: 50;
+  padding: 30px;
+  color: #cbd5e1;
+}
+.FindSolutionMainDiv1 {
+  width: 20%;
+}
+
+/* test */
