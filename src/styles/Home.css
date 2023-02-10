@@ -68,7 +68,7 @@ button:hover {
   width: 100vw;
   height: 100px;
   background: rgba(254, 254, 254, 0.4);
-  color: #ffffff;
+  color: #000000;
   position: fixed;
   bottom: 0vh;
   display: flex;
