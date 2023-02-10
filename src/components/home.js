@@ -123,9 +123,9 @@ class Home extends React.Component {
 
           <div className="FindSolutionMainDiv">
             <div className="FindSolutionMainDiv1">
-              <h2>More business tools. Greater value.</h2>
+              <h2>More Job Opportunities - Greater value.</h2>
               <p>
-                Purchasing solutions like advanced analytics and spend
+                Find the great solutions like advanced analytics and spend
                 management tools that work for you.
               </p>
               <button className="findSolBtn" onClick={this.findSolutions}>

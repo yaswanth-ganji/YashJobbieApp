@@ -9,14 +9,14 @@ const findProducts1 = [
   "Analytics",
   "Financing",
   "Integrations",
-  "Business savings & discounts",
+  "Trades/ Construction ",
   "Shipping & delivery",
-  "Purchasing workflow",
-  "Mobile app",
+  "Prodcut Development",
+  "Quality Assurance",
 ];
 const findProducts2 = [
   "category selection",
-  "Office supplies",
+  "Laboratory Jobs",
   "IT products",
   "Breakroom supplies",
   "Janitorial & sanitation supplies",
@@ -24,8 +24,8 @@ const findProducts2 = [
   "Restaurant supplies",
   "Professional medical supplies",
   "Professional beauty supplies",
-  "Wholesale purchasing",
-  "Bulk supplies",
+  "Medical/ Healthcare Jobs",
+  "Retail Jobs",
   "Business prime",
 ];
 const Findsolutionsmodel = ({ isOpen, onClose }) => {
@@ -67,15 +67,15 @@ const Findsolutionsmodel = ({ isOpen, onClose }) => {
             <div className="findSolutions3">{products2}</div>
             <div className="findSolutions4">
               <img width="200" height="150" src={findSolutionsImg} />
-              <h2>Get the best of Amazon Business</h2>
+              <h2>Get the best of Jobbies Business</h2>
               <div>
                 <p>
-                  Business Prime members get access to more tools and features
-                  to simplify buying, streamline procurement, and help reduce
+                  Jobbies Prime members get access to more tools and features to
+                  simplify buying, streamline procurement, and help reduce
                   costs.
                 </p>
 
-                <a href="">Explore Business Prime</a>
+                <a href="">Explore Jobbies Prime</a>
               </div>
             </div>
           </div>
