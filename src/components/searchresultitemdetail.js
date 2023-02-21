@@ -146,7 +146,7 @@ class SearchResultItemDetail extends React.Component {
         <div className="searchItemDetailFail">
           <img
             src={"https://assets.ccbp.in/frontend/react-js/no-jobs-img.png"}
-            alt="notFound"
+            alt="notFoundimg"
             width={400}
             height={270}
           />
