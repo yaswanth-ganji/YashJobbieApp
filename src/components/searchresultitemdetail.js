@@ -8,6 +8,7 @@ import { Redirect } from "react-router-dom";
 import Arrow from "../styles/arrow.png";
 import Loader from "react-loader-spinner";
 import "react-loader-spinner/dist/loader/css/react-spinner-loader.css";
+import failure from "../icons/failure.png";
 class SearchResultItemDetail extends React.Component {
   state = {
     ResultDetail: [],
@@ -143,10 +144,7 @@ class SearchResultItemDetail extends React.Component {
     } else if (this.state.ApiStatus == "FAIL") {
       data = (
         <div className="searchItemDetailFail">
-          <img
-            src={"https://assets.ccbp.in/frontend/react-js/failure-img.png"}
-            alt="notFoundPageImg"
-          />
+          <img src={failure} alt="notFoundPageImg" />
           <p className="IssueP1">Oops! Something Went Wrong</p>
           <p className="IssueP2">
             we cannot seem to find the page you are looking for.

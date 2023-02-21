@@ -1,5 +1,5 @@
 import React from "react";
-import { Link, withRouter } from "react-router-dom";
+import { NavLink, withRouter } from "react-router-dom";
 import "../styles/Header.css";
 import Cookie from "js-cookie";
 import LogoutModel from "./LogoutModel";
@@ -21,12 +21,6 @@ class Header extends React.Component {
     history.push("/");
   };
 
-  HomeClick = () => {
-    this.setState({ focusHome: true, focusJob: false });
-  };
-  JobClick = () => {
-    this.setState({ focusHome: false, focusJob: true });
-  };
   render() {
     return (
       <>
@@ -40,21 +34,13 @@ class Header extends React.Component {
             alt="appLogo"
           />
           <div className="spanDiv">
-            <Link
-              to="/"
-              className={this.state.focusHome && "addHighlight"}
-              onClick={this.HomeClick}
-            >
+            <NavLink to="/">
               <span>Home</span>
-            </Link>
+            </NavLink>
 
-            <Link
-              to="/Jobs"
-              className={this.state.focusJob && "addHighlight"}
-              onClick={this.JobClick}
-            >
+            <NavLink to="/Jobs">
               <span>Jobs</span>
-            </Link>
+            </NavLink>
           </div>
           <button onClick={this.logOut}>Logout</button>
         </div>

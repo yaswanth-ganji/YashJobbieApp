@@ -38,3 +38,6 @@
 .addHighlight {
   border: 1px solid #ffffff;
 }
+.active {
+  color: #f7931e !important;
+}

@@ -7,8 +7,9 @@ import facebook from "../icons/fb.svg";
 import twitter from "../icons/twitter.svg";
 import instagram from "../icons/insta.svg";
 import whatsapp from "../icons/whatsapp.svg";
-import cancel from "../icons/cancel.svg";
 import linkdin from "../icons/linkdin.svg";
+import cancel from "../icons/cancel.svg";
+
 import Job from "../icons/Job.svg";
 import findSolutions from "../styles/findSolutions.jpg";
 import Findsolutionsmodel from "./Findsolutionsmodel";
