@@ -4,7 +4,6 @@ import "../styles/Job.css";
 import Searchresultitem from "./Searchresultitem";
 import Loader from "react-loader-spinner";
 import "react-loader-spinner/dist/loader/css/react-spinner-loader.css";
-import failure from "../icons/failure.png";
 class SearchResults extends React.Component {
   state = {
     searchData: "",
@@ -81,8 +80,13 @@ class SearchResults extends React.Component {
     } else if (this.props.Loader == false && this.props.ApiStatus == true) {
       data = (
         <div className="NetworkIssueDiv">
+          <img
+            src={"https://assets.ccbp.in/frontend/react-js/failure-img.png"}
+            alt="notFoundPageImg"
+            width={500}
+            height={350}
+          />
           <p className="IssueP1">Oops! Something Went Wrong</p>
-          <img src={failure} width={100} height={100} />
           <p className="IssueP2">
             we cannot seem to find the page you are looking for.
           </p>

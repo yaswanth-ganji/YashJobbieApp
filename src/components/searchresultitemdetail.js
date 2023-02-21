@@ -8,7 +8,6 @@ import { Redirect } from "react-router-dom";
 import Arrow from "../styles/arrow.png";
 import Loader from "react-loader-spinner";
 import "react-loader-spinner/dist/loader/css/react-spinner-loader.css";
-import failure from "../icons/failure.png";
 class SearchResultItemDetail extends React.Component {
   state = {
     ResultDetail: [],
@@ -145,10 +144,8 @@ class SearchResultItemDetail extends React.Component {
       data = (
         <div className="searchItemDetailFail">
           <img
-            src={"https://assets.ccbp.in/frontend/react-js/no-jobs-img.png"}
-            alt="notFoundimg"
-            width={400}
-            height={270}
+            src={"https://assets.ccbp.in/frontend/react-js/failure-img.png"}
+            alt="notFoundPageImg"
           />
           <p className="IssueP1">Oops! Something Went Wrong</p>
           <p className="IssueP2">
